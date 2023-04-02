@@ -1,543 +1,444 @@
-case "jdsports-default":
-        d.api_key = "4C7BB4CDE6654C4CB4D6EC88BFC39920";
-        break;
-    case "jdsports-ipad":
-        d.api_key = "3BB800873C7042E9BA6E0BABE4690585";
-        break;
-    case "jdsports-sdplus":
-        d.api_key = "1F2977C9CC004412A8006EC435A8D836",
-        d.googleAnalytics = [{
-            name: "JD",
-            ID: "UA-28563990-29"
-        }],
-        d.liveSearch = !0;
-        break;
-    case "jdsports-hd":
-        d.api_key = "DE4A0886677E4952AA55265B389824DA";
-        break;
-    case "size-default":
-        d.api_key = "66E1DA2005F343A0875C91392F2C5167";
-        break;
-    case "size-ipad":
-        d.api_key = "D6DB34B72DB4492A9FD62102D5D5226B";
-        break;
-    case "size-sdplus":
-        d.api_key = "45ED656CBD8247A4ABA352A166909B0E",
-        d.heightRatio = "1.12";
-        break;
-    case "sizede-default":
-        d.api_key = "C7ED9D4E8EAE4117929BF79AB2EA8BCE";
-        break;
-    case "sizede-sdplus":
-        d.api_key = "8BF93EB3441D44ABB0269A8BEC9AE479",
-        d.heightRatio = "1.12";
-        break;
-    case "sizees-default":
-        d.api_key = "BD1A67F6953F44A6A23894C11CD62AA8";
-        break;
-    case "sizees-sdplus":
-        d.api_key = "D661B629F08F4E5AA6866A72F30B229D",
-        d.heightRatio = "1.12";
-        break;
-    case "sizefr-default":
-        d.api_key = "4EE1BC68D4E342D49D39C00ABF5942D2";
-        break;
-    case "sizefr-sdplus":
-        d.api_key = "AB4F641B996F41A382983E437C0D37AF",
-        d.heightRatio = "1.12";
-        break;
-    case "sizeie-default":
-        d.api_key = "BC7FE35B0BA5430DB5A36D7D52783AE4";
-        break;
-    case "sizeie-sdplus":
-        d.api_key = "668E30B426554001B3B7335E59C1A6CF",
-        d.heightRatio = "1.12";
-        break;
-    case "sizeit-default":
-        d.api_key = "78F4021E82C64DBA858F49E210192EE0";
-        break;
-    case "sizeit-sdplus":
-        d.api_key = "FB90965B96454DC7B246D78C7358D93B",
-        d.heightRatio = "1.12";
-        break;
-    case "sizenl-default":
-        d.api_key = "59BFD927B6B5437EBBF36A53969C56A6";
-        break;
-    case "sizenl-sdplus":
-        d.api_key = "4994A7F59A824E62A95B8F43486931AE",
-        d.heightRatio = "1.12";
-        break;
-    case "sizese-default":
-        d.api_key = "0E8EB9196CB9432CB352DD79A76692FD";
-        break;
-    case "sizese-sdplus":
-        d.api_key = "BB5AA95C01BB4B1E8EE2CC0A67D8E24E",
-        d.heightRatio = "1.12";
-        break;
-    case "sizedk-default":
-        d.api_key = "75D86752BD7848898F228F4CF1094C24";
-        break;
-    case "sizedk-sdplus":
-        d.api_key = "A1C52A33CDD348B491286271BC1CC468",
-        d.heightRatio = "1.12";
-        break;
-    case "scottsmenswear-default":
-        d.api_key = "47F81ACE8AD04AB781CF68B33B7ECAF7";
-        break;
-    case "scottsmenswear-ipad":
-        d.api_key = "BF04993BE28145EA8CA2C042407223D3";
-        break;
-    case "scottsmenswear-sdplus":
-        d.api_key = "47F81ACE8AD04AB781CF68B33B7ECAF7";
-        break;
-    case "blacks-default":
-        d.api_key = "ABE18C297EB64860A2EEAB4EE1C513B5";
-        break;
-    case "blacks-ipad":
-        d.api_key = "107216DB2A6440D2A76EB64A2E4A7D8C";
-        break;
-    case "blacks-ipad-promo":
-        d.api_key = "4BBBA7397A434BCC9DD1C48C973AFBF6",
-        d.channel = "instore-webapp-promo",
-        d.overridePartials = {
-            "product.html": "product-tents.html"
-        },
-        d.bypassSubchannelCheck = !0;
-        break;
-    case "blacks-sdplus":
-        d.api_key = "FBE3C22C0774408CA2686A4160F2254D";
-        break;
-    case "millets-default":
-        d.api_key = "F4C905089F6A45A2BC3EE96FE0834EC1";
-        break;
-    case "millets-ipad":
-        d.api_key = "9FE31CAA6C8A4C2FBE3C514944C6EDAA";
-        break;
-    case "millets-sdplus":
-        d.api_key = "9FE31CAA6C8A4C2FBE3C514944C6EDAA";
-        break;
-    case "jdpro-default":
-        d.api_key = "697173A2745248608BFA28C18FC9248F";
-        break;
-    case "jdpro-hd":
-        d.api_key = "880E07D5A1D5406FBE5C94C0FEE33E87";
-        break;
-    case "jdsportsie-default":
-        d.api_key = "DDDC46172E974FD2923C55ECDD0CA32B",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsie-ipad":
-        d.api_key = "D3E51BFAA3F7493F9761C11C85460CB4",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsie-sdplus":
-        d.api_key = "9D9C11DF690A40EEBB05957DAA021FCB",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportssg-default":
-        d.api_key = "1796B1DD9ED04F7EA288C855BB02E8A7",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportssg-ipad":
-        d.api_key = "EF4CAAD3086E42F49A7E046D0B7FA202",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportssg-sdplus":
-        d.api_key = "9FFC4D184A7F4C96AA73F6C51AFFE433",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsth-default":
-        d.api_key = "C042C962B893421F8CBF8E586B37D0D2",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsth-ipad":
-        d.api_key = "6976A45E15A34370A42769784BA291C4",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsth-sdplus":
-        d.api_key = "EC8CB624C2244019A7CED825E0CEB3B2",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsfr-default":
-        d.api_key = "8C7D28776C73420D80BDB87AE1B158AD",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsfr-ipad":
-        d.api_key = "7989920DCCD249F8AEE368BB42324BD6",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsfr-sdplus":
-        d.api_key = "CE86AA25EF1B47BC9965A7595466E623",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsit-default":
-        d.api_key = "BEAA04857083438297405124CE3517D0",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsit-sdplus":
-        d.api_key = "A06043AAAD2B4AF3B009B46BE13404C2",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportspt-default":
-        d.api_key = "13AE5438440D47328005D73ED541A72D",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportspt-sdplus":
-        d.api_key = "E19B8F49A98745E1844B65EAACAF6086",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsnl-default":
-        d.api_key = "6BE6ED875C0547488E8C3CB75E809DCD",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsnl-ipad":
-        d.api_key = "E6A6D7BD5F744258BE81B85B63ED71BD",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsnl-sdplus":
-        d.api_key = "56B32A0C81AE4C8F97431EAA575E2B7D",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsbe-default":
-        d.api_key = "440524152AAA4E2FB7F04E87E0AAEF4D",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsbe-ipad":
-        d.api_key = "ABFF4456A0DE48EFA705BA6283835C56",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsbe-sdplus":
-        d.api_key = "0CBCC85BA928473CBB30A299F0788372",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportses-default":
-        d.api_key = "7C7F5DACDDF9447DBBBA10D193C156E3",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportses-sdplus":
-        d.api_key = "900DC57C511C491E8F18B8419974901C",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsde-default":
-        d.api_key = "1B3BB99B0B9B482D8B8552F64B00E12F",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsde-sdplus":
-        d.api_key = "4CD4D3E3774E4D43A8884456ADCAFA8B",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsat-default":
-        d.api_key = "85EAF8E7BB22412084FF1B9500F383D2",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsat-sdplus":
-        d.api_key = "0FAE686A90394B7BA5443AF7C8656761",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsdk-default":
-        d.api_key = "2894E7C3EC924B97945E1A36FB2A6981",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsdk-sdplus":
-        d.api_key = "913C27489AEE45879C566CB2C6B3ECAA",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsse-default":
-        d.api_key = "B23DDBF797E04BB9B1F0894FEE448B46",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsse-sdplus":
-        d.api_key = "4260A7011C5E48F791EF81D3C8F565A7",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmy-default":
-    case "jdsportsmyr-default":
-        d.api_key = "E5F14155C23D4C4189D4A8C06CC3ABAC",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmyf-default":
-        d.api_key = "AFE70486DCEE4AA8BFB8D3083EF8073F",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmy-ipad":
-    case "jdsportsmyr-ipad":
-        d.api_key = "E5F14155C23D4C4189D4A8C06CC3ABAC",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmyf-ipad":
-        d.api_key = "AFE70486DCEE4AA8BFB8D3083EF8073F",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmy-sdplus":
-    case "jdsportsmyr-sdplus":
-    case "jdsportsmyf-sdplus":
-        d.api_key = "F3D7B04919F648E08A0966D1B54C4426",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsmyf-sdplus":
-        d.api_key = "AFE70486DCEE4AA8BFB8D3083EF8073F",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsau-default":
-        d.api_key = "A846C335E6F311E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsau-ipad":
-        d.api_key = "A846C334E6F311E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsau-sdplus":
-        d.api_key = "A846C333E6F311E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsauf-default":
-        d.api_key = "A846C335E6F311E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsauf-sdplus":
-        d.api_key = "A846C333E6F311E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsnz-default":
-        d.api_key = "452EC5EF74604B46839E1F893F3CFAC0",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsnz-sdplus":
-        d.api_key = "4361B7EC73DF4FEB8DDDAA8977B12031",
-        d.storeCSS = "jdsports";
-        break;
-    case "glueau-default":
-        d.api_key = "3954BABCA41848D49C49DA69E0477426",
-        d.storeCSS = "jdsports";
-        break;
-    case "glueau-ipad":
-        d.api_key = "630AFA5E0C5049F7924547ABDC4441B2",
-        d.storeCSS = "jdsports";
-        break;
-    case "glueau-sdplus":
-        d.api_key = "338F0CD6D734490DAD2FCCE4CAE453D7",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsfi-default":
-        d.api_key = "4D2F78E3CD4B425DBD1C337B1B2EC214",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsfi-sdplus":
-        d.api_key = "9334F8B14C43440C888904CB01D9765D",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsus-default":
-        d.api_key = "B21C311C29754588BFF9645B72B121E9",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsus-ipad":
-        d.api_key = "F0F01E18220446E694DC76ECEF2AB467",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsus-sdplus":
-        d.api_key = "839208460E0743BBBC9666F0CFB1BC39",
-        d.storeCSS = "jdsports";
-        break;
-    case "ultimateoutdoors-default":
-        d.api_key = "E743D02184D447F59D11736A34380762";
-        break;
-    case "ultimateoutdoors-ipad":
-        d.api_key = "3D16E162374B4D5BB124B30CD625C8C4";
-        break;
-    case "ultimateoutdoors-hd":
-        d.api_key = "4E3F20CD2AAD4E758C1C3D0A77F67E09";
-        break;
-    case "footpatrol-default":
-        d.api_key = "ADA14414D1454B12B5CFFC24318DC1B7";
-        break;
-    case "footpatrol-sdplus":
-        d.api_key = "753A5878125E43F6A3E263BD2E6B2D2E";
-        break;
-    case "footpatrol-ipad":
-        d.api_key = "5893BD6BE6324C49A73E7E97ED6C36D1";
-        break;
-    case "footpatrolfr-default":
-        d.api_key = "D52752B19E244585B532FE4B3752F2A8";
-        break;
-    case "footpatrolfr-sdplus":
-        d.api_key = "95FC1DD49A9B4645BE05207611730BF7";
-        break;
-    case "footpatrolfr-ipad":
-        d.api_key = "6ABE0D177B5348CD89D17C47530F3C4D";
-        break;
-    case "footpatrolit-default":
-        d.api_key = "D28D0A3C97CF457D957758834BF261F7";
-        break;
-    case "footpatrolit-sdplus":
-        d.api_key = "679B43969CB94EBCB2F6B67946E96951";
-        break;
-    case "ark-default":
-        d.api_key = "87146E8BC2834DA0B4BAA20736F6541D";
-        break;
-    case "tessuti-default":
-        d.api_key = "7FF5F962BBF04FF98510BCA27078FD87";
-        break;
-    case "tessuti-ipad":
-        d.api_key = "6B2A4DD0551B11E4916C0800200C9A66";
-        break;
-    case "tessuti-sdplus":
-        d.api_key = "46EAF98901644BEDAFE9FAE555A255D5";
-        break;
-    case "aktiesport-ipad":
-        d.api_key = "BF499D4CC7334C76A2D10511E16E65C0";
-        break;
-    case "perrysport-ipad":
-        d.api_key = "6E222D6028B44F9BB99EEED46EB1E2FC";
-        break;
-    case "jdsportsuniversal-default":
-        d.api_key = "70A0846CEC5249C893B9146C8274D3D3";
-        break;
-    case "jdsportsuniversal-sdplus":
-        d.api_key = "DDBF3356F2F1475EA3414A5BD2E0114A";
-        break;
-    case "cloggs-default":
-        d.api_key = "C2769B423F5A49098E233BD8C05A0685";
-        break;
-    case "cloggs-sdplus":
-        d.api_key = "283D6E0501844123A7E75BCDA2A9349F";
-        break;
-    case "cloggs-ipad":
-        d.api_key = "ECE9E1CAC618479BB454D7350FC5EC1E";
-        break;
-    case "thehipstore-default":
-        d.api_key = "693557FCD1464B449EF26C7510CC5990";
-        break;
-    case "thehipstore-sdplus":
-        d.api_key = "EF880C75988E4928B34A22A97A7DD111";
-        break;
-    case "thehipstore-ipad":
-        d.api_key = "4353BF95D5054E9A8CF109942F69DAB4";
-        break;
-    case "gooutdoorsgb-default":
-        d.api_key = "23EDFA7EB65D4503A0BFFBD3D5232D1F",
-        d.isSecondLayout = !0;
-        break;
-    case "gooutdoorsgb-ipad":
-        d.api_key = "A6CD33D764DE489589196229D709D668";
-        break;
-    case "jdx2-default":
-        d.api_key = "5D79B765E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx2-ipad":
-        d.api_key = "5D79B764E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx2-sdplus":
-        d.api_key = "5D79B763E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx3-default":
-        d.api_key = "BE3E5C45E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx3-ipad":
-        d.api_key = "BE3E5C44E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx3-sdplus":
-        d.api_key = "BE3E5C43E6F611E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx4-default":
-        d.api_key = "33DA6485E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx4-ipad":
-        d.api_key = "33DA6484E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx4-sdplus":
-        d.api_key = "33DA6483E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx5-default":
-        d.api_key = "8F6154D5E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx5-ipad":
-        d.api_key = "8F6154D4E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx5-sdplus":
-        d.api_key = "8F6154D3E6F711E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx6-default":
-        d.api_key = "20ECB345E6F811E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx6-ipad":
-        d.api_key = "20ECB344E6F811E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx6-sdplus":
-        d.api_key = "20ECB343E6F811E695980800200C9A66",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx7-default":
-        d.api_key = "DDA00742EFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx7-ipad":
-        d.api_key = "DDA0058AEFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx7-sdplus":
-        d.api_key = "DDA0040EEFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx8-default":
-        d.api_key = "ED80ADB0EFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx8-ipad":
-        d.api_key = "ED80AB94EFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx8-sdplus":
-        d.api_key = "ED80A8F6EFB011E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx9-default":
-        d.api_key = "04F6A332EFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx9-ipad":
-        d.api_key = "04F6A238EFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx9-sdplus":
-        d.api_key = "04F6A04EEFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx10-default":
-        d.api_key = "178EBB2EEFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx10-ipad":
-        d.api_key = "178EBA5CEFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdx10-sdplus":
-        d.api_key = "178EB976EFB111E6BC6492361F002671",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsshogun-default":
-        d.storeName = "jdsports",
-        d.store = "jdsports",
-        d.api_key = "9AD672140AA449608FAAF5176DA2E171",
-        d.logo = "jdsports",
-        d.storeCSS = "jdsports";
-        break;
-    case "jdsportsshogun-sdplus":
-        d.storeName = "jdsports",
-        d.store = "jdsports",
-        d.api_key = "F3482AA9131E44A4B308D5959700DD56",
-        d.logo = "jdsports",
-        d.storeCSS = "jdsports"
+Store: jdsports-default
+Api Key: 4C7BB4CDE6654C4CB4D6EC88BFC39920
+---------
+Store: jdsports-ipad
+Api Key: 3BB800873C7042E9BA6E0BABE4690585
+---------
+Store: jdsports-sdplus
+Api Key: 1F2977C9CC004412A8006EC435A8D836
+---------
+Store: jdsports-hd
+Api Key: DE4A0886677E4952AA55265B389824DA
+---------
+Store: size-default
+Api Key: 66E1DA2005F343A0875C91392F2C5167
+---------
+Store: size-ipad
+Api Key: D6DB34B72DB4492A9FD62102D5D5226B
+---------
+Store: size-sdplus
+Api Key: 45ED656CBD8247A4ABA352A166909B0E
+---------
+Store: sizede-default
+Api Key: C7ED9D4E8EAE4117929BF79AB2EA8BCE
+---------
+Store: sizede-sdplus
+Api Key: 8BF93EB3441D44ABB0269A8BEC9AE479
+---------
+Store: sizees-default
+Api Key: BD1A67F6953F44A6A23894C11CD62AA8
+---------
+Store: sizees-sdplus
+Api Key: D661B629F08F4E5AA6866A72F30B229D
+---------
+Store: sizefr-default
+Api Key: 4EE1BC68D4E342D49D39C00ABF5942D2
+---------
+Store: sizefr-sdplus
+Api Key: AB4F641B996F41A382983E437C0D37AF
+---------
+Store: sizeie-default
+Api Key: BC7FE35B0BA5430DB5A36D7D52783AE4
+---------
+Store: sizeie-sdplus
+Api Key: 668E30B426554001B3B7335E59C1A6CF
+---------
+Store: sizeit-default
+Api Key: 78F4021E82C64DBA858F49E210192EE0
+---------
+Store: sizeit-sdplus
+Api Key: FB90965B96454DC7B246D78C7358D93B
+---------
+Store: sizenl-default
+Api Key: 59BFD927B6B5437EBBF36A53969C56A6
+---------
+Store: sizenl-sdplus
+Api Key: 4994A7F59A824E62A95B8F43486931AE
+---------
+Store: sizese-default
+Api Key: 0E8EB9196CB9432CB352DD79A76692FD
+---------
+Store: sizese-sdplus
+Api Key: BB5AA95C01BB4B1E8EE2CC0A67D8E24E
+---------
+Store: sizedk-default
+Api Key: 75D86752BD7848898F228F4CF1094C24
+---------
+Store: sizedk-sdplus
+Api Key: A1C52A33CDD348B491286271BC1CC468
+---------
+Store: scottsmenswear-default
+Api Key: 47F81ACE8AD04AB781CF68B33B7ECAF7
+---------
+Store: scottsmenswear-ipad
+Api Key: BF04993BE28145EA8CA2C042407223D3
+---------
+Store: scottsmenswear-sdplus
+Api Key: 47F81ACE8AD04AB781CF68B33B7ECAF7
+---------
+Store: blacks-default
+Api Key: ABE18C297EB64860A2EEAB4EE1C513B5
+---------
+Store: blacks-ipad
+Api Key: 107216DB2A6440D2A76EB64A2E4A7D8C
+---------
+Store: blacks-ipad-promo
+Api Key: 4BBBA7397A434BCC9DD1C48C973AFBF6
+---------
+Store: blacks-sdplus
+Api Key: FBE3C22C0774408CA2686A4160F2254D
+---------
+Store: millets-default
+Api Key: F4C905089F6A45A2BC3EE96FE0834EC1
+---------
+Store: millets-ipad
+Api Key: 9FE31CAA6C8A4C2FBE3C514944C6EDAA
+---------
+Store: millets-sdplus
+Api Key: 9FE31CAA6C8A4C2FBE3C514944C6EDAA
+---------
+Store: jdpro-default
+Api Key: 697173A2745248608BFA28C18FC9248F
+---------
+Store: jdpro-hd
+Api Key: 880E07D5A1D5406FBE5C94C0FEE33E87
+---------
+Store: jdsportsie-default
+Api Key: DDDC46172E974FD2923C55ECDD0CA32B
+---------
+Store: jdsportsie-ipad
+Api Key: D3E51BFAA3F7493F9761C11C85460CB4
+---------
+Store: jdsportsie-sdplus
+Api Key: 9D9C11DF690A40EEBB05957DAA021FCB
+---------
+Store: jdsportssg-default
+Api Key: 1796B1DD9ED04F7EA288C855BB02E8A7
+---------
+Store: jdsportssg-ipad
+Api Key: EF4CAAD3086E42F49A7E046D0B7FA202
+---------
+Store: jdsportssg-sdplus
+Api Key: 9FFC4D184A7F4C96AA73F6C51AFFE433
+---------
+Store: jdsportsth-default
+Api Key: C042C962B893421F8CBF8E586B37D0D2
+---------
+Store: jdsportsth-ipad
+Api Key: 6976A45E15A34370A42769784BA291C4
+---------
+Store: jdsportsth-sdplus
+Api Key: EC8CB624C2244019A7CED825E0CEB3B2
+---------
+Store: jdsportsfr-default
+Api Key: 8C7D28776C73420D80BDB87AE1B158AD
+---------
+Store: jdsportsfr-ipad
+Api Key: 7989920DCCD249F8AEE368BB42324BD6
+---------
+Store: jdsportsfr-sdplus
+Api Key: CE86AA25EF1B47BC9965A7595466E623
+---------
+Store: jdsportsit-default
+Api Key: BEAA04857083438297405124CE3517D0
+---------
+Store: jdsportsit-sdplus
+Api Key: A06043AAAD2B4AF3B009B46BE13404C2
+---------
+Store: jdsportspt-default
+Api Key: 13AE5438440D47328005D73ED541A72D
+---------
+Store: jdsportspt-sdplus
+Api Key: E19B8F49A98745E1844B65EAACAF6086
+---------
+Store: jdsportsnl-default
+Api Key: 6BE6ED875C0547488E8C3CB75E809DCD
+---------
+Store: jdsportsnl-ipad
+Api Key: E6A6D7BD5F744258BE81B85B63ED71BD
+---------
+Store: jdsportsnl-sdplus
+Api Key: 56B32A0C81AE4C8F97431EAA575E2B7D
+---------
+Store: jdsportsbe-default
+Api Key: 440524152AAA4E2FB7F04E87E0AAEF4D
+---------
+Store: jdsportsbe-ipad
+Api Key: ABFF4456A0DE48EFA705BA6283835C56
+---------
+Store: jdsportsbe-sdplus
+Api Key: 0CBCC85BA928473CBB30A299F0788372
+---------
+Store: jdsportses-default
+Api Key: 7C7F5DACDDF9447DBBBA10D193C156E3
+---------
+Store: jdsportses-sdplus
+Api Key: 900DC57C511C491E8F18B8419974901C
+---------
+Store: jdsportsde-default
+Api Key: 1B3BB99B0B9B482D8B8552F64B00E12F
+---------
+Store: jdsportsde-sdplus
+Api Key: 4CD4D3E3774E4D43A8884456ADCAFA8B
+---------
+Store: jdsportsat-default
+Api Key: 85EAF8E7BB22412084FF1B9500F383D2
+---------
+Store: jdsportsat-sdplus
+Api Key: 0FAE686A90394B7BA5443AF7C8656761
+---------
+Store: jdsportsdk-default
+Api Key: 2894E7C3EC924B97945E1A36FB2A6981
+---------
+Store: jdsportsdk-sdplus
+Api Key: 913C27489AEE45879C566CB2C6B3ECAA
+---------
+Store: jdsportsse-default
+Api Key: B23DDBF797E04BB9B1F0894FEE448B46
+---------
+Store: jdsportsse-sdplus
+Api Key: 4260A7011C5E48F791EF81D3C8F565A7
+---------
+Store: jdsportsmy-default
+Api Key: 
+---------
+Store: jdsportsmyr-default
+Api Key: E5F14155C23D4C4189D4A8C06CC3ABAC
+---------
+Store: jdsportsmyf-default
+Api Key: AFE70486DCEE4AA8BFB8D3083EF8073F
+---------
+Store: jdsportsmy-ipad
+Api Key: 
+---------
+Store: jdsportsmyr-ipad
+Api Key: E5F14155C23D4C4189D4A8C06CC3ABAC
+---------
+Store: jdsportsmyf-ipad
+Api Key: AFE70486DCEE4AA8BFB8D3083EF8073F
+---------
+Store: jdsportsmy-sdplus
+Api Key: 
+---------
+Store: jdsportsmyr-sdplus
+Api Key: 
+---------
+Store: jdsportsmyf-sdplus
+Api Key: F3D7B04919F648E08A0966D1B54C4426
+---------
+Store: jdsportsmyf-sdplus
+Api Key: AFE70486DCEE4AA8BFB8D3083EF8073F
+---------
+Store: jdsportsau-default
+Api Key: A846C335E6F311E695980800200C9A66
+---------
+Store: jdsportsau-ipad
+Api Key: A846C334E6F311E695980800200C9A66
+---------
+Store: jdsportsau-sdplus
+Api Key: A846C333E6F311E695980800200C9A66
+---------
+Store: jdsportsauf-default
+Api Key: A846C335E6F311E695980800200C9A66
+---------
+Store: jdsportsauf-sdplus
+Api Key: A846C333E6F311E695980800200C9A66
+---------
+Store: jdsportsnz-default
+Api Key: 452EC5EF74604B46839E1F893F3CFAC0
+---------
+Store: jdsportsnz-sdplus
+Api Key: 4361B7EC73DF4FEB8DDDAA8977B12031
+---------
+Store: glueau-default
+Api Key: 3954BABCA41848D49C49DA69E0477426
+---------
+Store: glueau-ipad
+Api Key: 630AFA5E0C5049F7924547ABDC4441B2
+---------
+Store: glueau-sdplus
+Api Key: 338F0CD6D734490DAD2FCCE4CAE453D7
+---------
+Store: jdsportsfi-default
+Api Key: 4D2F78E3CD4B425DBD1C337B1B2EC214
+---------
+Store: jdsportsfi-sdplus
+Api Key: 9334F8B14C43440C888904CB01D9765D
+---------
+Store: jdsportsus-default
+Api Key: B21C311C29754588BFF9645B72B121E9
+---------
+Store: jdsportsus-ipad
+Api Key: F0F01E18220446E694DC76ECEF2AB467
+---------
+Store: jdsportsus-sdplus
+Api Key: 839208460E0743BBBC9666F0CFB1BC39
+---------
+Store: ultimateoutdoors-default
+Api Key: E743D02184D447F59D11736A34380762
+---------
+Store: ultimateoutdoors-ipad
+Api Key: 3D16E162374B4D5BB124B30CD625C8C4
+---------
+Store: ultimateoutdoors-hd
+Api Key: 4E3F20CD2AAD4E758C1C3D0A77F67E09
+---------
+Store: footpatrol-default
+Api Key: ADA14414D1454B12B5CFFC24318DC1B7
+---------
+Store: footpatrol-sdplus
+Api Key: 753A5878125E43F6A3E263BD2E6B2D2E
+---------
+Store: footpatrol-ipad
+Api Key: 5893BD6BE6324C49A73E7E97ED6C36D1
+---------
+Store: footpatrolfr-default
+Api Key: D52752B19E244585B532FE4B3752F2A8
+---------
+Store: footpatrolfr-sdplus
+Api Key: 95FC1DD49A9B4645BE05207611730BF7
+---------
+Store: footpatrolfr-ipad
+Api Key: 6ABE0D177B5348CD89D17C47530F3C4D
+---------
+Store: footpatrolit-default
+Api Key: D28D0A3C97CF457D957758834BF261F7
+---------
+Store: footpatrolit-sdplus
+Api Key: 679B43969CB94EBCB2F6B67946E96951
+---------
+Store: ark-default
+Api Key: 87146E8BC2834DA0B4BAA20736F6541D
+---------
+Store: tessuti-default
+Api Key: 7FF5F962BBF04FF98510BCA27078FD87
+---------
+Store: tessuti-ipad
+Api Key: 6B2A4DD0551B11E4916C0800200C9A66
+---------
+Store: tessuti-sdplus
+Api Key: 46EAF98901644BEDAFE9FAE555A255D5
+---------
+Store: aktiesport-ipad
+Api Key: BF499D4CC7334C76A2D10511E16E65C0
+---------
+Store: perrysport-ipad
+Api Key: 6E222D6028B44F9BB99EEED46EB1E2FC
+---------
+Store: jdsportsuniversal-default
+Api Key: 70A0846CEC5249C893B9146C8274D3D3
+---------
+Store: jdsportsuniversal-sdplus
+Api Key: DDBF3356F2F1475EA3414A5BD2E0114A
+---------
+Store: cloggs-default
+Api Key: C2769B423F5A49098E233BD8C05A0685
+---------
+Store: cloggs-sdplus
+Api Key: 283D6E0501844123A7E75BCDA2A9349F
+---------
+Store: cloggs-ipad
+Api Key: ECE9E1CAC618479BB454D7350FC5EC1E
+---------
+Store: thehipstore-default
+Api Key: 693557FCD1464B449EF26C7510CC5990
+---------
+Store: thehipstore-sdplus
+Api Key: EF880C75988E4928B34A22A97A7DD111
+---------
+Store: thehipstore-ipad
+Api Key: 4353BF95D5054E9A8CF109942F69DAB4
+---------
+Store: gooutdoorsgb-default
+Api Key: 23EDFA7EB65D4503A0BFFBD3D5232D1F
+---------
+Store: gooutdoorsgb-ipad
+Api Key: A6CD33D764DE489589196229D709D668
+---------
+Store: jdx2-default
+Api Key: 5D79B765E6F611E695980800200C9A66
+---------
+Store: jdx2-ipad
+Api Key: 5D79B764E6F611E695980800200C9A66
+---------
+Store: jdx2-sdplus
+Api Key: 5D79B763E6F611E695980800200C9A66
+---------
+Store: jdx3-default
+Api Key: BE3E5C45E6F611E695980800200C9A66
+---------
+Store: jdx3-ipad
+Api Key: BE3E5C44E6F611E695980800200C9A66
+---------
+Store: jdx3-sdplus
+Api Key: BE3E5C43E6F611E695980800200C9A66
+---------
+Store: jdx4-default
+Api Key: 33DA6485E6F711E695980800200C9A66
+---------
+Store: jdx4-ipad
+Api Key: 33DA6484E6F711E695980800200C9A66
+---------
+Store: jdx4-sdplus
+Api Key: 33DA6483E6F711E695980800200C9A66
+---------
+Store: jdx5-default
+Api Key: 8F6154D5E6F711E695980800200C9A66
+---------
+Store: jdx5-ipad
+Api Key: 8F6154D4E6F711E695980800200C9A66
+---------
+Store: jdx5-sdplus
+Api Key: 8F6154D3E6F711E695980800200C9A66
+---------
+Store: jdx6-default
+Api Key: 20ECB345E6F811E695980800200C9A66
+---------
+Store: jdx6-ipad
+Api Key: 20ECB344E6F811E695980800200C9A66
+---------
+Store: jdx6-sdplus
+Api Key: 20ECB343E6F811E695980800200C9A66
+---------
+Store: jdx7-default
+Api Key: DDA00742EFB011E6BC6492361F002671
+---------
+Store: jdx7-ipad
+Api Key: DDA0058AEFB011E6BC6492361F002671
+---------
+Store: jdx7-sdplus
+Api Key: DDA0040EEFB011E6BC6492361F002671
+---------
+Store: jdx8-default
+Api Key: ED80ADB0EFB011E6BC6492361F002671
+---------
+Store: jdx8-ipad
+Api Key: ED80AB94EFB011E6BC6492361F002671
+---------
+Store: jdx8-sdplus
+Api Key: ED80A8F6EFB011E6BC6492361F002671
+---------
+Store: jdx9-default
+Api Key: 04F6A332EFB111E6BC6492361F002671
+---------
+Store: jdx9-ipad
+Api Key: 04F6A238EFB111E6BC6492361F002671
+---------
+Store: jdx9-sdplus
+Api Key: 04F6A04EEFB111E6BC6492361F002671
+---------
+Store: jdx10-default
+Api Key: 178EBB2EEFB111E6BC6492361F002671
+---------
+Store: jdx10-ipad
+Api Key: 178EBA5CEFB111E6BC6492361F002671
+---------
+Store: jdx10-sdplus
+Api Key: 178EB976EFB111E6BC6492361F002671
+---------
+Store: jdsportsshogun-default
+Api Key: 9AD672140AA449608FAAF5176DA2E171
+---------
+Store: jdsportsshogun-sdplus
+Api Key: F3482AA9131E44A4B308D5959700DD56
+---------
