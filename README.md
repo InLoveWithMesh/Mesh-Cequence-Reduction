@@ -1,3 +1,3 @@
-# Mesh-Cequence-Reduction
-With these API Keys you can reduce Sequence Blocks on many Mesh Backend Endpoints
-There are various API Keys per Site per Region, just try them out!
+# Mesh Sequence Reduction
+You can use these Simple API Keys to reduce Sequence Blocks on many mesh backend endpoints. Instead of using Hawk, you can use them as parameters.
+There are different API Keys per site per region, just try them out!
